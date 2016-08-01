@@ -63,3 +63,11 @@ Success: Now you can build the Android code for FSL i.MX platform
 *****************************************************************
 ```
 
+## An example for the SABRE Board for Smart Devices i.MX 6Dual/Quad is:
+```
+cd ~/myandroid
+source build/envsetup.sh
+lunch 
+make
+```
+
