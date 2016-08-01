@@ -27,7 +27,6 @@ hours to load.
 ```
 cd ~/myandroid
 git clone git://git.freescale.com/imx/linux-2.6-imx.git kernel_imx
-the kernel repo is large. Therefore, this process can take a while.
 cd kernel_imx
 git checkout m6.0.1_2.0.0-ga
 ```
@@ -45,7 +44,7 @@ git checkout m6.0.1_2.1.0-ga
 ```
 
 
-### Assume you have unzipped the i.MX Android release package to /opt/android_M6.0.1_2.1.0_source .
+### Assume you have unzipped the i.MX Android release package to `/opt/android_M6.0.1_2.1.0_source` .
 ```
 $ cd ~/myandroid
 $ source /opt/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/and_patch.sh
