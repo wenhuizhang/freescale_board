@@ -70,4 +70,19 @@ source build/envsetup.sh
 lunch 
 make
 ```
+## Mount 
+
+```
+
+cd ~/myandroid/
+
+sudo chmod +x ./device/fsl/common/tools/fsl-sdcard-partition.sh
+
+cd /home/wenhui/myandroid/out/target/product/sabresd_6dq
+sudo ./../../../../../../wenhui/myandroid/device/fsl/common/tools/fsl-sdcard-partition.sh  -f imx6q /dev/sdd
+
+
+
+```
+
 
