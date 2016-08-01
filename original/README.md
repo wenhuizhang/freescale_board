@@ -6,10 +6,10 @@ from source.
 
 
 The images needed to create an Android system on MMC/SD are listed below:
-
+```
 • U-Boot image: u-boot.imx
 • boot image: boot.img
 • Android system root image: system.img
 • Recovery root image: recovery.img
-
+```
 
