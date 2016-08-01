@@ -44,15 +44,15 @@ git checkout m6.0.1_2.1.0-ga
 ```
 
 
-### Assume you have unzipped the i.MX Android release package to `/opt/android_M6.0.1_2.1.0_source` .
+### Assume you have unzipped the i.MX Android release package to `<save-dir>/android_M6.0.1_2.1.0_source` .
 ```
 $ cd ~/myandroid
-$ source /opt/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/and_patch.sh
+$ source ~/Documents/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/and_patch.sh
 $ help
 ```
 ### You should see that the "c_patch" function is available.
 ```
-$ c_patch /opt/android_M6.0.1_2.0.0_source/code/M6.0.1_2.1.0/ imx_M6.0.1_2.1.0
+$ c_patch ~/Documents/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/ imx_M6.0.1_2.1.0
 
 ```
 
