@@ -23,12 +23,12 @@ $ ~/bin/repo sync # This command loads most needed repos. Therefore, it can take
 hours to load.
 
 ```
-### Get M6.0.1_2.0.0 kernel source code from Freescale open source git:
+### Get M6.0.1_2.1.0 kernel source code from Freescale open source git:
 ```
 cd ~/myandroid
 git clone git://git.freescale.com/imx/linux-2.6-imx.git kernel_imx
 cd kernel_imx
-git checkout m6.0.1_2.0.0-ga
+git checkout m6.0.1_2.1.0-ga
 ```
 
 
@@ -57,7 +57,9 @@ $ c_patch /opt/android_M6.0.1_2.0.0_source/code/M6.0.1_2.1.0/ imx_M6.0.1_2.1.0
 ```
 
 ### If everything is OK, "c_patch" generates the following output to indicate the successful patch:
+```
 *****************************************************************
 Success: Now you can build the Android code for FSL i.MX platform
 *****************************************************************
+```
 
