@@ -1,3 +1,22 @@
+Source code:
+
+```
+wenhui@wenhui-XPS-8700:~/myandroid/dalvik/dx/src/com/android/multidex$ ls
+
+
+ArchivePathElement.java 
+ClassPathElement.java  
+ClassReferenceListBuilder.java 
+FolderPathElement.java  
+MainDexListBuilder.java  
+Path.java
+
+```
+
+
+
+
+
 ```
 
 ./dalvik/dx/src/com/android/multidex
