@@ -31,3 +31,16 @@ the kernel repo is large. Therefore, this process can take a while.
 cd kernel_imx
 git checkout m6.0.1_2.0.0-ga
 ```
+
+
+If you use U-Boot as your bootloader, clone the U-Boot git repository from the open source git:
+```
+cd ~/myandroid/bootable
+mkdir bootloader
+cd bootloader
+git clone git://git.freescale.com/imx/uboot-imx.git uboot-imx
+cd uboot-imx
+git checkout m6.0.1_2.1.0-ga
+
+```
+
