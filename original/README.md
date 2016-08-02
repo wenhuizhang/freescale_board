@@ -13,3 +13,6 @@ The images needed to create an Android system on MMC/SD are listed below:
 • Recovery root image: recovery.img
 ```
 
+Google Docs: 
+
+https://drive.google.com/a/gwmail.gwu.edu/folderview?id=0By9zMiuSPh0iX3VraUU0V2JudVk&usp=sharing_eid&ts=579fed0f#list
