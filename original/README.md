@@ -16,3 +16,5 @@ The images needed to create an Android system on MMC/SD are listed below:
 Google Docs: 
 
 https://drive.google.com/a/gwmail.gwu.edu/folderview?id=0By9zMiuSPh0iX3VraUU0V2JudVk&usp=sharing_eid&ts=579fed0f#list
+
+https://drive.google.com/a/gwmail.gwu.edu/file/d/0By9zMiuSPh0ieTRqbE9uWFFOdTQ/view?usp=sharing
