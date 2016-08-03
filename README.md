@@ -30,6 +30,13 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
 
 ```
 
+
+configure USB: 
+
+`$ wget -S -O - http://source.android.com/source/51-android.rules | sed "s/<username>/$USER/" | sudo tee >/dev/null /etc/udev/rules.d/51-android.rules; sudo udevadm control --reload-rules`
+
+
+
 ### To get the Android source code from Google repo, follow the steps below:
 ```
 $ cd ~
