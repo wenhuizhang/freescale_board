@@ -50,12 +50,12 @@ $ ~/bin/repo sync # This command loads most needed repos. Therefore, it can take
 hours to load.
 
 ```
-### Get M6.0.1_2.1.0 kernel source code from Freescale open source git:
+### Get M6.0.1_2.0.0 kernel source code from Freescale open source git:
 ```
 cd ~/myandroid
 git clone git://git.freescale.com/imx/linux-2.6-imx.git kernel_imx
 cd kernel_imx
-git checkout m6.0.1_2.1.0-ga
+git checkout m6.0.1_2.0.0-ga
 ```
 
 
@@ -66,20 +66,20 @@ mkdir bootloader
 cd bootloader
 git clone git://git.freescale.com/imx/uboot-imx.git uboot-imx
 cd uboot-imx
-git checkout m6.0.1_2.1.0-ga
+git checkout m6.0.1_2.0.0-ga
 
 ```
 
 
-### Assume you have unzipped the i.MX Android release package to `<save-dir>/android_M6.0.1_2.1.0_source` .
+### Assume you have unzipped the i.MX Android release package to `<save-dir>/android_M6.0.1_2.0.0_source` .
 ```
 $ cd ~/myandroid
-$ source ~/Documents/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/and_patch.sh
+$ source ~/Documents/android_M6.0.1_2.0.0_source/code/M6.0.1_2.0.0/and_patch.sh
 $ help
 ```
 ### You should see that the "c_patch" function is available.
 ```
-$ c_patch ~/Documents/android_M6.0.1_2.1.0_source/code/M6.0.1_2.1.0/ imx_M6.0.1_2.1.0
+$ c_patch ~/Documents/android_M6.0.1_2.0.0_source/code/M6.0.1_2.0.0/ imx_M6.0.1_2.0.0
 
 ```
 
