@@ -70,9 +70,14 @@ source build/envsetup.sh
 lunch 
 make
 ```
+
+
+
 ## Mount 
 
 ```
+
+sudo dd if=/dev/zero of=/dev/sdd bs=8192
 
 cd ~/myandroid/
 
