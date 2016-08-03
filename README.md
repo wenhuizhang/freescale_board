@@ -94,7 +94,7 @@ Success: Now you can build the Android code for FSL i.MX platform
 ```
 cd ~/myandroid
 source build/envsetup.sh
-lunch 
+lunch sabresd_6dq_user
 make
 ```
 
